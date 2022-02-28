@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class CyclicSort {
     public static void main(String[] args) {
-        int[] arr = {5, 3, 4, 1, 2};
+        int[] arr = {5, 3, 1, 4, 2};
         cyclic(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -29,3 +29,9 @@ public class CyclicSort {
         arr[second] = temp;
     }
 }
+
+/*  V.V.I
+    01. Check
+    02. Swap
+    03. Move
+*/
